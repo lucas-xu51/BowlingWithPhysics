@@ -15,10 +15,22 @@ public class BallController : MonoBehaviour
     void Start()
     {
         ballRB = GetComponent<Rigidbody>();
+        Cursor.lockState = CursorLockMode.Locked; // not sure
         inputManager.OnSpacePressed.AddListener(LaunchBall);
         transform.parent = ballAnchor;
         transform.localPosition = Vector3.zero;
         ballRB.isKinematic = true;
+        ResetBall();
+    }
+
+    public void ResetBall()
+    {
+        isBallLanched = false;
+
+        ballRB.isKinematic = true;
+        launchIndicator.gameObject.SetActive(true);
+        transform.parent = ballAnchor;
+        transform.localPosition = Vector3.zero;
     }
 
     private void LaunchBall()

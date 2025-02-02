@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     private Rigidbody rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
         inputManager.OnMove.AddListener(MovePlayer);
         rb = GetComponent<Rigidbody>();
