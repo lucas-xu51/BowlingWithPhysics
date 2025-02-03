@@ -3,7 +3,11 @@
 ## project display
 
 
-Uploading BowlingWithPhysics - SampleScene - Windows, Mac, Linux - Unity 6 (6000.0.31f1) _DX11_ 2025-02-03 14-26-24.mp4…
+
+
+https://github.com/user-attachments/assets/3b321df3-4b14-42b9-8814-39c4ada1280a
+
+
 
 
 
